@@ -1,0 +1,113 @@
+.formContainer {
+  display: flex; /* Utiliza flexbox para el centrado vertical */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  height: 80vh; /* Ocupa toda la altura de la ventana */
+}
+
+.formRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  margin: auto;
+  height: auto;
+  border: 1px solid black;
+}
+
+.title {
+  margin-bottom: 34px;
+  font-size: 25px;
+  padding: 33px 50px 0 60px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.inputForm {
+  border-bottom: 1px solid black;
+  padding: 11px 15px 15px;
+  width: 80%;
+}
+
+.inputContainer {
+  position: relative;
+  padding: 15px 15px 15px;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 20%;
+  left: 10px; /* Ajusta el espaciado a tu preferencia */
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: gray;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formCheckbox {
+  margin-top: 37px;
+  padding: 0 50px 0 60px;
+  position: relative;
+}
+
+.checkboxLabel {
+  margin-left: 20px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.btnContainer {
+  margin: 40px 0 10px;
+}
+
+.btn {
+  width: 180px;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #c8c8c8;
+  color: #1b1b1b;
+}
+
+.btn:disabled {
+  background-color: rgb(186, 186, 186);
+  color: #666;
+  cursor: not-allowed;
+
+  opacity: 0.6;
+}
+
+.inputRow {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.errorMessage {
+  font-size: smaller;
+  color: rgb(219, 96, 96);
+}

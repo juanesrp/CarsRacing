@@ -1,0 +1,23 @@
+.containerAboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aboutUs p {
+  color: #8e8a8a;
+  margin-top: 15px;
+}

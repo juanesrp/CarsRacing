@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7a7777;
+  color: #fff;
+  height: 50px;
+}
+
+.link {
+  margin: 10px;
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}

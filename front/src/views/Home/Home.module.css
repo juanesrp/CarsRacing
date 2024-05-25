@@ -1,0 +1,84 @@
+.containerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.containerTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2px;
+}
+
+.containerTitle p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #8e8a8a;
+}
+
+.containerImg {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.containerRegister {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.containerRegister h2 {
+  margin-bottom: 20px;
+}
+
+.containerRegister p {
+  color: #8e8a8a;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.servicesTitle {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.servicesTitle h3 {
+  color: #8e8a8a;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.containerServices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-left: 1px solid #8e8a8a;
+  width: 25%;
+  padding: 20px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.card p {
+  color: #8e8a8a;
+  font-weight: 400;
+}
