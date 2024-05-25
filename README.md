@@ -35,6 +35,6 @@ Para instalar y configurar el proyecto, sigue estos pasos:
 
 ## Uso
 
--Abre tu navegador y ve a http://localhost:3000 para acceder a la página web.
--Regístrate o inicia sesión con tu cuenta.
--Crea un nuevo turno
+- Abre tu navegador y ve a http://localhost:3000 para acceder a la página web.
+- Regístrate o inicia sesión con tu cuenta.
+- Crea un nuevo turno.
